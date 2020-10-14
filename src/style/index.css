@@ -1,20 +1,6 @@
-body,
-html {
-  margin: 0;
-  padding: 0;
-}
-
-body {
+.body {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-ul {
-  list-style: none;
   margin: 0;
   padding: 0;
 }
@@ -25,8 +11,148 @@ ul {
 }
 
 .nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
   color: white;
   display: flex;
   justify-content: space-around;
   text-align: center;
+}
+
+.content {
+  display: flex;
+  margin: 20px 0 20px 0;
+}
+
+.img-div {
+  float: top;
+  text-align: center;
+  background-color: #f9f9f9;
+  height: 200px;
+  width: 100%;
+}
+
+.article-image {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.aside-left {
+  float: left;
+  width: 15%;
+  margin-left: 20px;
+}
+
+.aside-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.about {
+  background-color: #f8f9fa;
+  margin: 45px 20px 40px 0;
+  padding: 20px 20px 20px 20px;
+}
+
+.archives {
+  margin: 45px 20px 40px 0;
+  padding: 20px 20px 20px 20px;
+}
+
+.past-archives {
+  margin: 16px 0 16px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.article {
+  width: 70%;
+}
+
+.article-left .article-right {
+  margin: auto;
+  width: 50%;
+  flex-flow: row wrap;
+  padding: 40px 0 40px 0;
+  display: flex;
+}
+
+.article-left {
+  width: 50%;
+  float: left;
+}
+
+.article-right {
+  width: 50%;
+  float: right;
+}
+
+.article-info {
+  box-sizing: border-box;
+  border-radius: 5px;
+  background: white;
+  display: block;
+  text-align: left;
+  box-shadow: #ccc 0 0 5px 0;
+  float: left;
+  margin: 5px;
+}
+
+.article-description {
+  margin: 20px;
+}
+
+.article-link {
+  text-decoration: none;
+}
+
+.aside-right {
+  margin: 40px 20px 20px 20px;
+  float: right;
+  display: flex;
+  flex-direction: row;
+  width: 15%;
+  align-items: center;
+  text-align: center;
+}
+
+.sign-in-form {
+  background-color: #f8f9fa;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.form-checkbox {
+  margin: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.input-info {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.input-email {
+  border-radius: 4px 4px 0 0;
+  border: 1px solid #c8c8c8;
+  margin-bottom: 0;
+}
+
+.input-password {
+  border-radius: 0 0 4px 4px;
+  border: 1px solid #c8c8c8;
+  border-top: none;
+}
+
+.sigin-in-button {
+  border: none;
+  border-radius: 4px;
+  width: 100%;
+  padding: 5px;
+  color: white;
+  background-color: #4285f4;
 }
