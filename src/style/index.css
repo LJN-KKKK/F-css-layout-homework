@@ -22,7 +22,7 @@
 
 .content {
   display: flex;
-  margin: 20px;
+  padding: 20px;
 }
 
 .aside-left {
@@ -101,7 +101,7 @@
 }
 
 .article-description {
-  margin: 20px;
+  padding: 20px;
 }
 
 .article-title {
