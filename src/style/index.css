@@ -54,24 +54,8 @@
 
 .article {
   width: 70%;
-}
-
-.article-left .article-right {
-  margin: auto;
-  width: 50%;
-  flex-flow: row wrap;
-  padding: 40px 0 40px 0;
-  display: flex;
-}
-
-.article-left {
-  width: 50%;
-  float: left;
-}
-
-.article-right {
-  width: 50%;
-  float: right;
+  column-count: 2;
+  column-gap: 10px;
 }
 
 .article-info {
@@ -82,7 +66,8 @@
   text-align: left;
   box-shadow: #ccc 0 0 5px 0;
   float: left;
-  margin: 0 10px 10px 10px;
+  margin: 0 0 10px 0;
+  -webkit-column-break-inside: avoid;
 }
 
 .img-div {
@@ -96,7 +81,6 @@
 .article-image {
   width: 100%;
   height: 100%;
-  display: block;
   object-fit: cover;
 }
 
