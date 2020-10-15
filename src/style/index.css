@@ -22,43 +22,27 @@
 
 .content {
   display: flex;
-  margin: 20px 0 20px 0;
-}
-
-.img-div {
-  float: top;
-  text-align: center;
-  background-color: #f9f9f9;
-  height: 200px;
-  width: 100%;
-}
-
-.article-image {
-  width: 100%;
-  height: 100%;
-  display: block;
-  object-fit: cover;
+  margin: 20px;
 }
 
 .aside-left {
   float: left;
   width: 15%;
-  margin-left: 20px;
+  margin-right: 20px;
 }
 
-.aside-title {
+.aside-left-title {
   font-size: 20px;
   font-weight: bold;
 }
 
 .about {
   background-color: #f8f9fa;
-  margin: 45px 20px 40px 0;
-  padding: 20px 20px 20px 20px;
+  margin-bottom: 40px;
+  padding: 60px 20px 20px 20px;
 }
 
 .archives {
-  margin: 45px 20px 40px 0;
   padding: 20px 20px 20px 20px;
 }
 
@@ -98,11 +82,35 @@
   text-align: left;
   box-shadow: #ccc 0 0 5px 0;
   float: left;
-  margin: 5px;
+  margin: 0 10px 10px 10px;
+}
+
+.img-div {
+  float: top;
+  text-align: center;
+  background-color: #f9f9f9;
+  height: 200px;
+  width: 100%;
+}
+
+.article-image {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
 }
 
 .article-description {
   margin: 20px;
+}
+
+.article-title {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.article-abstract {
+  margin: 20px 0;
 }
 
 .article-link {
@@ -110,7 +118,7 @@
 }
 
 .aside-right {
-  margin: 40px 20px 20px 20px;
+  margin-left: 20px;
   float: right;
   display: flex;
   flex-direction: row;
@@ -123,6 +131,7 @@
   background-color: #f8f9fa;
   padding: 10px;
   border-radius: 4px;
+  width: 100%;
 }
 
 .form-checkbox {
